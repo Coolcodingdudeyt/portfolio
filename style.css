@@ -84,16 +84,15 @@ body {
     backdrop-filter: blur(10px);
     margin-top: 0px;
     overflow: hidden;
-    top: 0;
+    top: 0%;
     width: auto;
     z-index: 9999;
-    position: sticky;
+    position: fixed;
     overflow: hidden;
     padding: 15px;
-    
+    width: 100%;
 }
 #idk{
-    top: 0;
     position: sticky;
     cursor: pointer;
     color: aliceblue;
@@ -102,7 +101,6 @@ body {
     transition: color 0.25s;
     z-index: 99999;
     text-decoration: none;
-
 }
 #idk::after{
     position: absolute;
@@ -135,8 +133,6 @@ body {
     gap: 0px;
     color: aliceblue;
     margin-top: -20vh;
-    margin: vh;
-    padding: 0vh;
     background-image: url();
     background-position: center;
     background-repeat: no-repeat;
@@ -156,7 +152,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0px;
     color: aliceblue;
     background-color: rgb(12, 12, 12);
 }
@@ -214,8 +209,7 @@ body {
     color: aliceblue;
     display: flex;
     background-color: rgb(44, 32, 32);
-    z-index: 1;
-    
+    z-index: 0;
 }
 #tp{
     text-align: center;
