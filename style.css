@@ -1,12 +1,13 @@
 html{
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 body {
     margin: 0;
     overflow: auto;
     background: radial-gradient(ellipse at bottom, #000000 0%, #090A0F 100%);
-    height: 100vh;
-    overflow: auto;
+    height: 110vh;
     background-color: rgb();
     gap: 0px;
     z-index: 999;
@@ -15,14 +16,14 @@ body {
 }
 #home{
     z-index: 0;
-    height: 105vh;
+    height: 110vh;
 }
 .stars {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     pointer-events: none;
     z-index: -1;
 }
@@ -33,6 +34,7 @@ body {
     border-radius: 50%;
     animation: twinkle linear infinite;
     z-index: 1;
+    height: 105vh;
 }
 
 @keyframes twinkle {
@@ -74,7 +76,7 @@ body {
     background-repeat: no-repeat;
     margin-left: 60%;
     margin-top: -6%;
-    z-index: 9999999;
+    z-index: 99;
 }
 #bar{
     background-color: #000000 0%;
@@ -83,36 +85,43 @@ body {
     margin-top: 0px;
     overflow: hidden;
     top: 0;
-    width: 90%;
-    z-index: 999;
+    width: auto;
+    z-index: 9999;
     position: sticky;
     overflow: hidden;
     padding: 15px;
     
 }
-#navbar{
+#idk{
     top: 0;
     position: sticky;
     cursor: pointer;
     color: aliceblue;
-    font-size: 28px;
+    font-size: 25px;
     padding: 0.5rem 1rem;
     transition: color 0.25s;
-    z-index: 100;
+    z-index: 99999;
     text-decoration: none;
+
 }
-#navbar::after{
+#idk::after{
     position: absolute;
     content: "";
     inset: 0;
     background: aliceblue;
     scale: 1 0;
-    z-index: -1;
+    z-index: 999999;
     transition: 0.45s;
     border-radius: 10px;
 }
-#navbar:hover {
+#idk:hover {
     color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    transition: 0.45s;
+    inset: 0;
+    content: "";
+    scale: 1 0;
 }
 #navbar:hover::after {
     scale: 1 1;
@@ -124,22 +133,22 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0px;
-    background-color: rgb(12, 12, 12);
     color: aliceblue;
-    margin-top: -15vh;
+    margin-top: -20vh;
     margin: vh;
     padding: 0vh;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    background-color: #2b1010;
 }
-#work{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
-    color: aliceblue;
-    margin-top: rem;
-    background-color: rgb(12, 12, 12);
+#abtd{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(196, 147, 88);
+    border-radius: 90px;
 }
 #services{
     width: 100%;
@@ -163,19 +172,26 @@ body {
 }
 #abtme{
     font-size: 2.6rem;
-    margin-top: -20rem;
-    margin-left: 15%;
+    margin-top: 10rem;
+    margin-left: 10%;
 }
 #selft{
     font-size: 2.6rem;
-    margin-top: -10rem;
-    margin-left: -7rem;
+    margin-top: -1.5rem;
+    margin-left: 10%;
     z-index: 999;
+}
+#ik{
+    font-size: 2.6rem;
+    margin-top: -1.5rem;
+    margin-left: 10%;
 }
 #abtpic{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    margin-left: 70%;
+    margin-top: -15vh;
     background-image: url(abt.jpg);
     background-size: cover;
     background-position: center;
@@ -188,4 +204,69 @@ body {
     backdrop-filter: blur(10px);
     height: 6rem;
     width: 90%;
+}
+#work{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    color: aliceblue;
+    display: flex;
+    background-color: rgb(44, 32, 32);
+    z-index: 1;
+    
+}
+#tp{
+    text-align: center;
+}
+#pjd{
+    height: 60vh;
+    width: 70rem;
+    background-color: rgb(112, 20, 20);
+    border-radius: 20px;
+    z-index: 1;
+}
+#pj1{
+    height: 13vh;
+    width: 13vh;
+    background-color: aliceblue;
+    color: black;
+    margin-left: 7rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 4vh;
+}
+#pj1t{
+    color: aliceblue;
+    margin-left: 30vh;
+    margin-top: -10vh;
+}
+#pj2{
+    height: 13vh;
+    width: 13vh;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 12vh;
+}
+#pj2t{
+    margin-left: 30vh;
+    margin-top: -10vh;
+}
+#pj3{
+    height: 13vh;
+    width: 13vh;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 12vh;
+}
+#pj3t{
+    margin-left: 30vh;
+    margin-top: -10vh;
 }

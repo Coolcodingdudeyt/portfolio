@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
         star.style.height = `${size}px`;
 
         
-        star.style.animationDuration = `${Math.random() * 2 + 1}s`; // 1s to 3s
-        star.style.animationDelay = `${Math.random() * 2}s`; // 0s to 2s
+        star.style.animationDuration = `${Math.random() * 2 + 1}s`; 
+        star.style.animationDelay = `${Math.random() * 2}s`; 
 
         starsContainer.appendChild(star);
     }
