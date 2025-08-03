@@ -45,7 +45,7 @@ body {
     font-size: 3rem;
     color: aliceblue;
     margin-left: 29%;
-    margin-top: 2.3rem;
+    margin-top: 7rem;
 }
 #port{
     z-index: 0;
@@ -146,25 +146,6 @@ body {
     background-color: rgb(196, 147, 88);
     border-radius: 90px;
 }
-#services{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    background-color: rgb(12, 12, 12);
-}
-#contact{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    color: aliceblue;
-    background-color: rgb(12, 12, 12);
-}
 #abtme{
     font-size: 2.6rem;
     margin-top: 10rem;
@@ -197,7 +178,7 @@ body {
     background-color: #000000 0%;
     background: transparent;
     backdrop-filter: blur(10px);
-    height: 6rem;
+    height: rem;
     width: 90%;
 }
 #work{
@@ -218,7 +199,7 @@ body {
     height: 60vh;
     width: 70rem;
     background-color: rgb(112, 20, 20);
-    border-radius: 20px;
+    border-radius: 50px;
     z-index: 1;
 }
 #pj1{
@@ -263,4 +244,139 @@ body {
 #pj3t{
     margin-left: 30vh;
     margin-top: -10vh;
+}
+#services{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(78, 28, 28);
+}
+#serd{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(92, 19, 6);
+    border-radius: 50px;
+}
+#here{
+    text-align: center;
+}
+#ms{
+    text-align: center;
+}
+#picdiv{
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+#pic1{
+    height: 15vh;
+    width: 15vh;
+    background-color: #fff;
+    margin-left: 15vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pic2{
+    height: 15vh;
+    width: 15vh;
+    background-color: #fff;
+    margin-left: 10vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pic3{
+    height: 15vh;
+    width: 15vh;
+    background-color: #fff;
+    margin-left: 10vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#contact{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: aliceblue;
+    background-color: rgb(53, 21, 21);
+}
+#forms{
+    height: 90%;
+    width: 100%;
+}
+#emb{
+    height: 40vh;
+    width: 20%;
+    background-color: #301c1c;
+    border-radius: 8%;
+    margin-left: 15rem;
+    margin-top: 6vh;
+    padding-top: 1.5vh;
+}
+#cont{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5vh;
+}
+#em{
+    margin-left: 9.5rem;
+    margin-bottom: 1rem;
+}
+#first{
+    border-radius: 8px;
+    border-color: #2b1010;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 1vh;
+    margin-left: 6rem;
+}
+#last{
+    border-radius: 8px;
+    border-color: #2b1010;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-left: 6rem;
+}
+#email{
+    border-radius: 8px;
+    border-color: #2b1010;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-left: 6rem;
+}
+#message{
+    border-radius: 8px;
+    border-color: #2b1010;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-left: 3.5rem;
+}
+#submit{
+    border-radius: 8px;
+    border-color: #2b1010;
+    border-width: 2px;
+    margin: 0 auto;
+    align-self: auto;
+    margin-top: 2vh;
+    margin-left: 8.5rem;
 }
